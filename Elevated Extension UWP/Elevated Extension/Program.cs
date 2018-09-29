@@ -27,7 +27,9 @@ namespace Elevated_Extension
                 }
             }
 
-            Thread.Sleep(10000); // do some work, then exit
+            AutoResetEvent areWeDone = new AutoResetEvent(false);
+            // do some task, then exit
+            areWeDone.WaitOne(10000); 
         }
     }
 }
