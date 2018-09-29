@@ -10,6 +10,9 @@ namespace Hello_Elevated_World
     {
         static void Main(string[] args)
         {
+            Console.Title = "Hello Elevated World!";
+            Console.WriteLine("Press any key ...");
+            Console.ReadKey();
         }
     }
 }
