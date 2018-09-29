@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,6 +26,16 @@ namespace Elevated_Extension_UWP
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private async void ButtonUser_Click(object sender, RoutedEventArgs e)
+        {
+            await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("User");
+        }
+
+        private async void ButtonAdmin_Click(object sender, RoutedEventArgs e)
+        {
+            await FullTrustProcessLauncher.LaunchFullTrustProcessForCurrentAppAsync("Admin");
         }
     }
 }

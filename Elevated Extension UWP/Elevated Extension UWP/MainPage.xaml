@@ -6,9 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}">
 
     <Grid>
-
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Content="Run Backgroundprocess as User" Click="ButtonUser_Click" HorizontalAlignment="Stretch" FontSize="32" Margin="3"/>
+            <Button Content="Run Backgroundprocess as Admin" Click="ButtonAdmin_Click" HorizontalAlignment="Stretch" FontSize="32" Margin="3"/>
+        </StackPanel>
     </Grid>
 </Page>
