@@ -1,6 +1,6 @@
 # App Elevation Tutorial - Part 1 (hello world)
 
-Sharing the code for the first part of the tutorial from my blog: ->link tbd<-
+Sharing the code for the first part of the tutorial from my blog: https://stefanwick.com/2018/10/01/app-elevation-samples-part-1/
 
 You will need the following setup to run these projects:
 - Windows 10 update 1809 or later
