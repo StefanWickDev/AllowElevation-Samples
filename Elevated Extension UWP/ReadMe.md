@@ -1,6 +1,6 @@
 # App Elevation Tutorial - Part 3 (UWP extension)
 
-Sharing the code for the third part of the tutorial from my blog: ->link tbd<-
+Sharing the code for the third part of the tutorial from my blog: https://stefanwick.com/2018/10/07/app-elevation-samples-part-3/
 
 You will need the following setup to run these projects:
 - Windows 10 update 1809 or later
